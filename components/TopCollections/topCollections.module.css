@@ -1,0 +1,51 @@
+
+.wrapper {
+    @apply w-full;
+}
+
+.title {
+    @apply text-h4;
+}
+
+.header {
+    @apply flex justify-between items-center;
+}
+
+.moreCollection {
+    @apply flex text-smallSemiBold items-center;
+}
+
+.collectionsWrapper {
+    @apply grid grid-rows-3 grid-flow-col gap-8;
+    margin-top: 16px !important;
+}
+
+.collection {
+    @apply flex items-center;
+}
+
+.avatar {
+    @apply ml-2 relative;
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.avatar > span {
+    border-radius: 25px;
+}
+
+.collectionData {
+    @apply ml-2 flex flex-col justify-between;
+}
+
+.collectionName {
+    @apply text-semiBold;
+}
+
+.collectionValue {
+    @apply text-paragraphAlt mt-1;
+}
+
+.verifiedCollection {
+    @apply absolute top-8 right-0;
+}

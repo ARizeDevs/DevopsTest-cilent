@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        height: calc(100vh - 72px);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        max-height: calc(100vh - 116px);
+    }
+}
+
+.banner {
+    @apply bg-no-repeat bg-cover;
+    min-height: 156px;
+}
+
+.tab {
+    @apply mr-4 pb-1 text-semiBold font-semibold;
+}
+
+.activeTab {
+    @apply text-white;
+    border-bottom: 2px solid #ffffff;
+}
+
+.deactiveTab {
+    @apply text-manatee;
+}

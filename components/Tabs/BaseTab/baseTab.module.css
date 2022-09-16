@@ -1,0 +1,8 @@
+
+.baseTab {
+    @apply flex border-b border-solid border-fade-ghost-white w-full;
+}
+
+.baseTabItem {
+    @apply text-semiBold mb-0.5 mr-4;
+}

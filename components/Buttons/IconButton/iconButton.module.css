@@ -1,0 +1,27 @@
+.iconButton {
+    @apply w-full flex justify-center cursor-pointer;
+}
+
+.disabledButton {
+    @apply opacity-25;
+}
+
+.coreButton {
+    @apply p-0 w-auto;
+}
+
+.beforeIcon {
+    @apply pr-1;
+}
+
+.afterIcon {
+    @apply pl-1;
+}
+
+.largeIconButton {
+    @apply p-3;
+}
+
+.smallIconButton {
+    @apply px-3 py-1.5;
+}

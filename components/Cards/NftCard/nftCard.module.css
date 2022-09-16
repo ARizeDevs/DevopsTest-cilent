@@ -1,0 +1,67 @@
+.wrapper {
+    @apply p-4 rounded-2xl bg-dark-raisin-black relative;
+}
+
+.imageContainer {
+    @apply rounded-lg w-full cursor-pointer block;
+    margin-top: 14px !important;
+}
+
+.timer {
+    @apply flex absolute items-center text-semiBold py-2 px-2.5 bg-raisin-black
+        border rounded-lg border-coral w-fit text-white;
+    top: 59%;
+    left: 24px;
+}
+
+.fire {
+    @apply mr-1.5;
+}
+
+.timer > span {
+    @apply ml-1;
+}
+
+.name {
+    @apply flex justify-between text-semiBold font-bold mt-4 text-white;
+}
+
+.des {
+    @apply text-paragraph font-bold mt-2 text-manatee;
+}
+
+.footer {
+    @apply flex justify-between mt-2;
+}
+
+.bid {
+    @apply text-smallSemiBold font-bold py-1.5 text-coral;
+}
+
+.like {
+    @apply flex items-center;
+}
+
+.view > path {
+    fill: #565572;
+}
+
+.likeCount {
+    @apply ml-1 text-smallSemiBold font-semibold text-manatee;
+}
+
+.likedNft > path {
+    fill: #FF8766;
+}
+
+.socialIcon > svg {
+    height: 24px;
+    width: 24px;
+}
+
+.socialIcon > svg > path {
+    fill: white;
+}
+.nftName {
+    @apply self-center;
+}

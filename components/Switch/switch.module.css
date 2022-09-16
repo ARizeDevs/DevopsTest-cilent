@@ -1,0 +1,40 @@
+
+.switchContainer {
+    @apply bg-dark-blue-grey p-0.5 flex h-full w-full;
+}
+
+.switchContainer:hover {
+    @apply opacity-70;
+}
+
+.switchContainer > input::disabled {
+    @apply bg-fade-ghost-white;
+}
+
+.smallSwitchContainer {
+    @apply rounded-lg;
+}
+
+.smallSwitchContainer > input:checked ~ span {
+    left: calc(100% - 12px);
+}
+
+.largeSwitchContainer {
+    @apply rounded-xl;
+}
+
+.largeSwitchContainer > input:checked ~ span {
+    left: calc(100% - 16px);
+}
+
+.switch {
+    @apply bg-white rounded-full relative;
+}
+
+.smallSwitch{
+    @apply h-3 w-3;
+}
+
+.largeSwitch{
+    @apply h-4 w-4;
+}

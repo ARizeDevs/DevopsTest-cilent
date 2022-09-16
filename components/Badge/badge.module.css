@@ -1,0 +1,23 @@
+.badge {
+    @apply px-1 rounded-lg text-paragraphAlt bg-ghost-white text-raisin-black;
+}
+
+.primaryBadge {
+    @apply text-white bg-blue-crayola;
+}
+
+.primaryInvertedBadge {
+    @apply text-blue-crayola bg-white;
+}
+
+.importantBadge {
+    @apply text-white bg-flame;
+}
+
+.addedBadge {
+    @apply text-spanish-viridian bg-aero-blue;
+}
+
+.removedBadge {
+    @apply text-chinese-red bg-misty-rose;
+}

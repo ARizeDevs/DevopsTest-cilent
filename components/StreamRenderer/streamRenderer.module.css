@@ -1,0 +1,19 @@
+.startBtn {
+    @apply bg-coral w-32;
+}
+
+.centeredContainer {
+    @apply flex w-screen h-screen items-center justify-center;
+}
+
+.videoWrapper {
+    @apply flex w-screen h-screen items-center justify-center bg-black;
+}
+
+.actionOverlay {
+    @apply w-full h-full flex items-center justify-center absolute;
+}
+
+.video {
+    @apply h-full;
+}

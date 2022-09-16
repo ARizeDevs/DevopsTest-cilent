@@ -1,0 +1,48 @@
+.tab {
+    @apply mr-4 pb-1 text-semiBold font-semibold;
+}
+
+.activeTab {
+    @apply text-white;
+    border-bottom: 2px solid #ffffff;
+}
+
+.deactiveTab {
+    @apply text-manatee;
+}
+
+.image > span {
+    border-radius: 25px !important;
+}
+
+.tabPanel {
+    height: calc(100vh - 440px);
+}
+
+.tabPanel::-webkit-scrollbar {
+    width: 4px;
+    @apply bg-darker-raisin-black;
+}
+
+.tabPanel::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #bec4cb;
+}
+
+.tabPanel::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+
+.avatar {
+    border-radius: 25px;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.avatar > span {
+    border-radius: 25px;
+}
+
+.priceTab {
+    max-width: 75px;
+}

@@ -1,0 +1,59 @@
+
+
+.myArBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: #21212C;
+  padding: 40px;
+  height: 50px;
+  width: 140px;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+  transform: translate(50%, 0%);
+
+  padding: 0;
+  color: #F1F0F4;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+​ .myArBtn h3 {
+  color: #F1F0F4;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1000px) {
+  .myArBtn img {
+    width: 60px !important;
+  }
+  ​ .myArBtn h3 {
+    font-size: large !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .myArBtn img {
+    width: 50px !important;
+  }
+  ​ .myArBtn h3 {
+    font-size: medium !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .myArBtn img {
+    width: 40px !important;
+  }
+  ​ .myArBtn h3 {
+    font-size: small !important;
+  }
+}

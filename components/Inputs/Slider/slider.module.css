@@ -1,0 +1,20 @@
+.Slider {
+    @apply cursor-pointer w-full h-1 flex items-center;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.Slider:focus {
+    outline: none;
+}
+
+.Slider::-webkit-slider-runnable-track {
+    @apply bg-ghost-white rounded-md border-0 h-1;
+}
+
+.Slider::-webkit-slider-thumb {
+    @apply w-4 h-4 rounded-lg border-solid border-4 border-little-boy-blue bg-white;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -6px;
+}

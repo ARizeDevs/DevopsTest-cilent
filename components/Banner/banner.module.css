@@ -1,0 +1,28 @@
+
+.banner {
+    @apply py-3.5 pl-4 pr-7 w-full flex;
+}
+
+.warningBanner {
+    @apply bg-bright-yellow-crayola;
+}
+
+.errorBanner {
+    @apply bg-sinopia;
+}
+
+.announcementBanner {
+    @apply bg-han-purple;
+}
+
+.message {
+    @apply text-semiBold ml-1;
+}
+
+.darkMessage {
+    @apply text-raisin-black;
+}
+
+.lightMessage {
+    @apply text-white;
+}

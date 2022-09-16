@@ -1,0 +1,41 @@
+
+.wrapper {
+    display: table;
+}
+
+.table {
+    width: 100%;
+    border-collapse:separate; 
+    border-spacing: 0 1.25rem;
+}
+
+.header {
+    @apply text-semiBold font-normal;
+}
+
+.rowContainer {
+    @apply bg-white;
+    border-radius: 16px !important;
+}
+
+.row {
+    @apply px-4 py-3.5 text-center text-semiBold font-semibold;
+}
+
+.row:first-child {
+    border-radius: 16px 0px 0px 16px;
+}
+
+.row:last-child {
+    border-radius: 0px 16px 16px 0px;
+}
+
+.poolName {
+    @apply flex items-center justify-start text-h6 font-extrabold;
+}
+
+.poolImage {
+    @apply flex items-center justify-center bg-space-cadet p-1 rounded-full mr-3;
+    max-width: 48px;
+    max-height: 48px;
+}

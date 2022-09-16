@@ -1,0 +1,48 @@
+.wrapper {
+    width: 230px;
+    @apply h-screen hidden lg:flex lg:flex-col justify-between bg-dark-raisin-black;
+}
+
+.header {
+    @apply px-6 pt-6 pb-2;
+}
+
+.profile {
+    @apply mt-6;
+}
+
+.bottom {
+    @apply p-6 mt-3;
+}
+
+.theme {
+    @apply flex justify-between text-raisin-black text-semiBold whitespace-nowrap mt-4;
+}
+
+.switch {
+    max-width: 32px !important;
+}
+
+.footer {
+    @apply p-6;
+}
+
+.social {
+    @apply flex gap-3;
+}
+
+.policy {
+    @apply text-manatee font-medium mt-4;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.copyright {
+    @apply text-manatee font-medium mt-6;
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.getArzModal {
+    min-width: 350px;
+}

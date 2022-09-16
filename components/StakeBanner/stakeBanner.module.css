@@ -1,0 +1,21 @@
+.wrapper {
+    @apply rounded-2xl bg-no-repeat bg-cover flex flex-col justify-end p-4 items-start w-full;
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 24.73%,
+            rgba(0, 0, 0, 0.7) 89.95%
+        ),
+        url('../../assets/images/stakeBanner.svg');
+    height: 182px;
+    width: 182px;
+}
+
+.title {
+    @apply text-white font-black;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.button {
+    @apply w-fit text-raisin-black text-smallSemiBold !bg-coral font-bold mt-2;
+}

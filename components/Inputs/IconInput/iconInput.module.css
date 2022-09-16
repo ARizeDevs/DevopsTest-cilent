@@ -1,0 +1,12 @@
+
+.iconInput {
+    @apply flex items-center;
+}
+
+.beforeIcon {
+    @apply mr-2;
+}
+
+.afterIcon {
+    @apply ml-2;
+}

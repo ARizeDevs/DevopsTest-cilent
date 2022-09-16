@@ -1,0 +1,20 @@
+
+.breadcrumb {
+    @apply flex items-center w-full;
+}
+
+.breadcrumbItem {
+    @apply flex items-center text-semiBold text-rhythm;
+}
+
+.breadcrumbSeparator {
+    @apply px-2;
+}
+
+.breadcrumbBeforeIcon {
+    @apply pr-1;
+}
+
+.breadcrumbAfterIcon {
+    @apply pl-1;
+}

@@ -1,0 +1,7 @@
+.altTab {
+    @apply flex justify-between border border-solid rounded-lg w-full p-1 h-8;
+}
+
+.altTabItem {
+    @apply py-0.5 w-full flex justify-center text-smallSemiBold items-center;
+}

@@ -1,0 +1,11 @@
+.baseButtonContainer {
+    @apply w-full flex justify-center text-semiBold disabled:opacity-25 rounded-md;
+}
+
+.largeBaseButton {
+    @apply p-3;
+}
+
+.smallBaseButton {
+    @apply px-3 py-1.5;
+}

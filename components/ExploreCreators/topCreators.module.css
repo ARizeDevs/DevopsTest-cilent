@@ -1,0 +1,34 @@
+.wrapper {
+    @apply w-full;
+}
+
+.title {
+    @apply flex items-center text-h4 font-extrabold;
+}
+
+.creatorsWrapper {
+    @apply grid grid-cols-6 gap-8;
+    margin-top: 16px !important;
+}
+
+.creator {
+    @apply flex flex-col items-center;
+}
+
+.avatar {
+    @apply mb-2 relative;
+    height: 152px !important;
+    width: 152px !important;
+}
+
+.avatar > span {
+    border-radius: 100%;
+}
+
+.creatorName {
+    @apply text-h5 font-bold;
+}
+
+.creatorValue {
+    @apply text-semiBold font-bold;
+}

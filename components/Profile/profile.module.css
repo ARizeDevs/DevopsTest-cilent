@@ -1,0 +1,33 @@
+.wrapper {
+    @apply flex items-start w-full;
+}
+
+.avatar {
+    @apply relative flex-none self-start;
+    border-radius: 25px;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.avatar > span {
+    border-radius: 25px;
+}
+
+.status {
+    @apply absolute;
+    right: -2px;
+    top: 21px;
+    transform: scale(0.7);
+}
+
+.profileData {
+    @apply ml-2 flex flex-col justify-between;
+}
+
+.userName {
+    @apply text-smallSemiBold;
+}
+
+.bio {
+    @apply text-paragraphAlt;
+}

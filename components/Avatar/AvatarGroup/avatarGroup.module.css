@@ -1,0 +1,50 @@
+.avatars {
+    @apply static flex;
+}
+
+.avatars li:not(:first-child):nth-child(2) {
+    position: relative;
+    left: -8px;
+}
+
+.avatars li:nth-child(3) {
+    position: relative;
+    left: -16px;
+}
+
+.avatars li:nth-child(4) {
+    position: relative;
+    left: -24px;
+}
+
+.avatars li:nth-child(5) {
+    position: relative;
+    left: -32px;
+}
+
+.avatar {
+    border: 2px solid #21212C !important;
+    border-radius: 64px;
+}
+
+.moreAvatars {
+    @apply bg-ghost-white flex items-center justify-center;
+}
+
+.smallAvatar {
+    @apply text-paragraphAlt;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.mediumAvatar {
+    @apply text-smallSemiBold;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.largeAvatar {
+    @apply text-semiBold;
+    height: 40px !important;
+    width: 40px !important;
+}

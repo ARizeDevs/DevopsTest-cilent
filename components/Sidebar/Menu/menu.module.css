@@ -1,0 +1,30 @@
+
+
+.item {
+    @apply mt-4 flex text-white items-center text-semiBold;
+}
+
+.activeText {
+    @apply text-coral;
+}
+
+.data {
+    @apply flex py-2 px-6 items-center;
+}
+
+.icon {
+    @apply mr-4;
+}
+
+.activeIcon > path {
+    @apply fill-coral;
+}
+
+.separator {
+    @apply mt-4;
+}
+
+.activeItem {
+    @apply w-1 bg-coral h-8;
+    border-radius: 0px 5px 5px 0px;
+}

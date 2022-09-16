@@ -1,0 +1,43 @@
+.generalInputContainer {
+    @apply w-full;
+}
+
+.generalInputLabel {
+    @apply mb-1;
+}
+
+.generalInput {
+    @apply px-2 rounded-lg border-solid border-2 border-matte-independence;
+}
+
+.generalInput:focus {
+    @apply rounded-lg border-solid border-2 border-play-dough;
+}
+
+.generalInput:focus-within {
+    @apply rounded-lg border-solid border-2 border-play-dough;
+}
+
+.smallGeneralInput {
+    @apply py-1.5;
+}
+
+.largeGeneralInput {
+    @apply py-3;
+}
+
+.generalInputInvalid {
+    @apply rounded-lg border-outrageous-red;
+}
+
+.generalInputValidation {
+    @apply text-smallText flex items-center mt-1;
+}
+
+.generalInputWrongValidation {
+    @apply text-outrageous-red ml-1;
+}
+
+.generalInputRightValidation {
+    @apply text-green-cyan ml-1;
+}

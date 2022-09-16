@@ -1,0 +1,65 @@
+.tab {
+    @apply mr-4 pb-1 text-semiBold font-semibold;
+}
+
+.activeTab {
+    @apply text-white;
+    border-bottom: 2px solid #ffffff;
+}
+
+.deactiveTab {
+    @apply text-manatee;
+}
+
+.image > span {
+    border-radius: 25px !important;
+}
+
+.tabPanel {
+    height: calc(100vh - 525px);
+}
+
+.scroll::-webkit-scrollbar {
+    width: 4px;
+    margin-left: 4px;
+    @apply bg-darker-raisin-black;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #bec4cb;
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+
+.avatar {
+    border-radius: 25px;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.avatar > span {
+    border-radius: 25px;
+}
+
+.priceTab {
+    max-width: 75px;
+}
+
+.select{
+    background-image: "../../assets/icons/150.jpeg";
+    width: 40px;
+    @apply bg-transparent appearance-none cursor-pointer text-white text-semiBold border-0 relative;
+}
+.selectOptions{    
+    @apply bg-raisin-black rounded border-0 absolute z-10 w-full min-w-max flex flex-col;
+}
+.selectOptionsItem{
+    @apply h-8 p-1 text-semiBold text-white ;
+}
+
+.inputNumber::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

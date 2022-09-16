@@ -1,0 +1,307 @@
+.avatarTier {
+    position: relative;
+    height: 60px !important;
+    width: 48px !important;
+    padding: 0 !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ring {
+    box-sizing: border-box !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 48px !important;
+    width: 48px !important;
+
+    /* border-color: #403f55; */
+    max-width: 48px !important;
+    min-width: 48px !important;
+    max-height: 48px !important;
+    min-height: 48px !important;
+
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.photo {
+    box-sizing: content-box !important;
+
+    background: linear-gradient(45deg,#d1aad7,#c88bc4 25%,#7b8fdd 50%,#86bff2 74.87%,#bbdef2 99.88%);
+    background-image: linear-gradient(45deg, rgb(209, 170, 215), rgb(200, 139, 196) 25%, rgb(123, 143, 221) 50%, rgb(134, 191, 242) 74.87%, rgb(187, 222, 242) 99.88%);
+
+    border-radius: 50%;
+    height: 40px !important;
+    width: 40px !important;
+    max-width: 40px !important;
+    min-width: 40px !important;
+    max-height: 40px !important;
+    min-height: 40px !important;
+}
+.label {
+    position: absolute;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    height: 16px !important;
+    min-width: fit-content !important;
+    padding: 0;
+
+    border: 2px solid #16161d;
+    border-radius: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5px 3px;
+}
+.label span {
+    text-transform: uppercase !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 15px;
+    color: #16161d;
+    white-space: nowrap;
+}
+.label svg {
+    margin: 2px 2px 2px 0;
+}
+.background-gold {
+    background: conic-gradient(
+            from 260.21deg at 84.38% 47.92%,
+            #ffe169 -42.48deg,
+            rgba(255, 246, 204, 0.421875) 43.88deg,
+            rgba(146, 108, 21, 0) 200.33deg,
+            #ffe169 317.52deg,
+            rgba(255, 246, 204, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #a47e1b -39.78deg,
+            #edc531 116.93deg,
+            #fcefb4 268.82deg,
+            #a47e1b 320.22deg,
+            #edc531 476.93deg
+        );
+}
+.border-gold {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+                from 260.21deg at 84.38% 47.92%,
+                #ffe169 -42.48deg,
+                rgba(255, 246, 204, 0.421875) 43.88deg,
+                rgba(146, 108, 21, 0) 200.33deg,
+                #ffe169 317.52deg,
+                rgba(255, 246, 204, 0.421875) 403.88deg
+            )
+            border-box,
+        conic-gradient(
+                from 123.2deg at 19.53% 52.08%,
+                #a47e1b -39.78deg,
+                #edc531 116.93deg,
+                #fcefb4 268.82deg,
+                #a47e1b 320.22deg,
+                #edc531 476.93deg
+            )
+            border-box;
+}
+
+.background-silver {
+    background: conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #e1e5f2 -42.48deg,
+            rgba(163, 206, 241, 0.421875) 43.88deg,
+            rgba(173, 181, 189, 0) 200.33deg,
+            #e1e5f2 317.52deg,
+            rgba(163, 206, 241, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #4f5d75 -39.78deg,
+            #2d3142 116.93deg,
+            #ced4da 268.82deg,
+            #4f5d75 320.22deg,
+            #2d3142 476.93deg
+        );
+}
+.border-silver {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #e1e5f2 -42.48deg,
+            rgba(163, 206, 241, 0.421875) 43.88deg,
+            rgba(173, 181, 189, 0) 200.33deg,
+            #e1e5f2 317.52deg,
+            rgba(163, 206, 241, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #4f5d75 -39.78deg,
+            #2d3142 116.93deg,
+            #ced4da 268.82deg,
+            #4f5d75 320.22deg,
+            #2d3142 476.93deg
+        );
+}
+
+.background-bronze {
+    background: conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffd6c0 -42.48deg,
+            rgba(247, 193, 170, 0.421875) 43.88deg,
+            rgba(158, 73, 54, 0) 200.33deg,
+            #ffd6c0 317.52deg,
+            rgba(247, 193, 170, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #9e4936 -39.78deg,
+            #ab3c0c 116.93deg,
+            #ffba9e 268.82deg,
+            #9e4936 320.22deg,
+            #ab3c0c 476.93deg
+        );
+}
+.border-bronze {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffd6c0 -42.48deg,
+            rgba(247, 193, 170, 0.421875) 43.88deg,
+            rgba(158, 73, 54, 0) 200.33deg,
+            #ffd6c0 317.52deg,
+            rgba(247, 193, 170, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #9e4936 -39.78deg,
+            #ab3c0c 116.93deg,
+            #ffba9e 268.82deg,
+            #9e4936 320.22deg,
+            #ab3c0c 476.93deg
+        );
+}
+
+.background-basic {
+    background: conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #e7d8ff -42.48deg,
+            rgba(189, 149, 255, 0.421875) 43.88deg,
+            rgba(139, 119, 194, 0) 200.33deg,
+            #e7d8ff 317.52deg,
+            rgba(189, 149, 255, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #411fa3 -39.78deg,
+            #2b1a5a 116.93deg,
+            #b3a3cd 268.82deg,
+            #411fa3 320.22deg,
+            #2b1a5a 476.93deg
+        );
+}
+.border-basic {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #e7d8ff -42.48deg,
+            rgba(189, 149, 255, 0.421875) 43.88deg,
+            rgba(139, 119, 194, 0) 200.33deg,
+            #e7d8ff 317.52deg,
+            rgba(189, 149, 255, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #411fa3 -39.78deg,
+            #2b1a5a 116.93deg,
+            #b3a3cd 268.82deg,
+            #411fa3 320.22deg,
+            #2b1a5a 476.93deg
+        );
+}
+
+.background-diamond {
+    background: conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffffff -42.48deg,
+            rgba(227, 250, 255, 0.5) 43.88deg,
+            rgba(25, 128, 151, 0.7) 200.33deg,
+            #ffffff 317.52deg,
+            rgba(227, 250, 255, 0.5) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #88e9ff -39.78deg,
+            #88e9ff 116.93deg,
+            rgba(230, 251, 255, 0.67) 268.82deg,
+            #88e9ff 320.22deg,
+            #88e9ff 476.93deg
+        );
+}
+.border-diamond {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffffff -42.48deg,
+            rgba(227, 250, 255, 0.5) 43.88deg,
+            rgba(25, 128, 151, 0.7) 200.33deg,
+            #ffffff 317.52deg,
+            rgba(227, 250, 255, 0.5) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #88e9ff -39.78deg,
+            #88e9ff 116.93deg,
+            rgba(230, 251, 255, 0.67) 268.82deg,
+            #88e9ff 320.22deg,
+            #88e9ff 476.93deg
+        );
+}
+
+.background-platinum {
+    background: conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffffff -42.48deg,
+            rgba(232, 232, 232, 0.421875) 43.88deg,
+            rgba(79, 79, 79, 0.5) 200.33deg,
+            #ffffff 317.52deg,
+            rgba(232, 232, 232, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #b4b4b4 -39.78deg,
+            #6c6c6c 116.93deg,
+            #ffffff 268.82deg,
+            #b4b4b4 320.22deg,
+            #6c6c6c 476.93deg
+        );
+}
+.border-platinum {
+    background: linear-gradient(#16161d, #16161d) padding-box,
+        conic-gradient(
+            from 259.42deg at 87.7% 43.75%,
+            #ffffff -42.48deg,
+            rgba(232, 232, 232, 0.421875) 43.88deg,
+            rgba(79, 79, 79, 0.5) 200.33deg,
+            #ffffff 317.52deg,
+            rgba(232, 232, 232, 0.421875) 403.88deg
+        ),
+        conic-gradient(
+            from 123.2deg at 19.53% 52.08%,
+            #b4b4b4 -39.78deg,
+            #6c6c6c 116.93deg,
+            #ffffff 268.82deg,
+            #b4b4b4 320.22deg,
+            #6c6c6c 476.93deg
+        );
+}
+
+.background-notier {
+    background: #403f55;
+}
+.border-notier {
+    border-color: #403f55;
+}

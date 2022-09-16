@@ -1,0 +1,40 @@
+.qrModal {
+  position: absolute;
+  width: 360px;
+  padding: 24px;
+  border-radius: 16px;
+  outline: none;
+  @apply bg-space-cadet border border-solid border-rhythm;
+}
+
+.overlay {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--main-lightgray2-color);
+  z-index: 3;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.title{
+  @apply text-white text-h4 font-extrabold;
+}
+
+.cointainer{
+  @apply py-8 w-full flex justify-center items-center;
+}
+
+.button{
+  @apply bg-independence w-full h-11 p-3 text-white text-semiBold font-bold;
+}

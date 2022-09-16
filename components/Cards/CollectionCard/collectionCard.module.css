@@ -1,0 +1,44 @@
+
+.wrapper {
+    @apply p-4 rounded-2xl bg-dark-raisin-black;
+}
+
+.info {
+    @apply flex justify-between items-center;
+}
+
+.collectionProfile {
+    @apply flex items-center;
+}
+
+.collectionData {
+    @apply ml-2 flex flex-col justify-between;
+}
+
+.profileImage {
+    @apply rounded-full;
+}
+
+.name {
+    @apply font-bold text-h5 text-white;
+}
+
+.sale {
+    @apply font-normal text-semiBold text-manatee mt-1;
+}
+
+.follow {
+    @apply bg-space-cadet text-fade-ghost-white max-w-fit;
+}
+
+.following {
+    @apply bg-coral text-raisin-black max-w-fit;
+}
+
+.itemsWrapper {
+    @apply mt-6 grid grid-cols-3 gap-2;
+}
+
+.nftImage {
+    @apply rounded-lg;
+}

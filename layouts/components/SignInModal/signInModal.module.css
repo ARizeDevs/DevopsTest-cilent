@@ -1,0 +1,117 @@
+
+.wrapper {
+    @apply block lg:flex lg:items-center lg:justify-center absolute lg:top-0 h-full w-full;
+    background-color: rgba(22, 22, 29, 0.85);
+}
+
+
+@media screen and (min-width:1024px) {
+    .modalWrapper {
+        top: calc(50% - 131px);
+        left: calc(50% - 312px);
+        max-width: 614px;
+    }
+
+    .signInModal {
+        max-width: 614px;
+        border-radius: 16px;
+    }
+
+    .modalImage {
+        height: 261px;
+        width: 261px;
+        border-radius: 8px;
+    }
+
+    .modalData {
+        height: 261px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .modalWrapper {
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        position: fixed;
+    }
+
+    .signInModal {
+        max-width: fit-content;
+        border-radius: 16px 16px 0px 0px !important;
+        transition: all .3s ease-in-out;
+        max-height: 0px;
+        bottom: 0px;
+        display: table-column;
+    }
+
+    .showModal {
+        max-height: 100vh;
+        width: -webkit-fill-available;
+        position: fixed;
+    }
+
+    .modalImage {
+        height: 303px;
+        border-radius: 12px;
+    }
+
+    .modalImageDescription {
+        @apply flex justify-end;
+    }
+}
+
+.modalWrapper {
+    @apply lg:absolute flex items-center justify-center;
+}
+
+.signInModal {
+    @apply px-6 pt-6 pb-12 lg:pb-4 bg-space-cadet block lg:flex;
+}
+
+.closedModal {
+    @apply hidden;
+}
+
+.imageWrapper {
+    @apply mb-8 lg:mb-0;
+}
+
+.modalImage {
+    @apply bg-cover bg-center;
+}
+
+.modalImageDescription {
+    @apply mt-2 text-white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+.modalData {
+    @apply lg:ml-6 w-full lg:w-1/2 flex flex-col justify-between;
+}
+
+.modalTitle {
+    @apply text-white text-h4 font-extrabold;
+}
+
+.modalDescription {
+    @apply text-manatee text-semiBold font-normal mt-2 mb-1.5;
+}
+
+.modalLink {
+    @apply text-coral text-smallSemiBold font-bold;
+}
+
+.metaMask {
+    @apply bg-coral rounded-lg mt-6 text-darker-raisin-black font-bold text-semiBold;
+}
+
+.trustWallet {
+    @apply bg-independence rounded-lg mt-2 font-bold text-semiBold text-white;
+}
+
+.walletIsConnected{
+    @apply text-semiBold text-carribean-green;
+}

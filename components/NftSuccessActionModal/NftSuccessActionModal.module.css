@@ -1,0 +1,10 @@
+.successBackground {
+    background-image: url('../../assets/images/Sprinkles.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    @apply flex flex-col;
+    width: 310px;
+}

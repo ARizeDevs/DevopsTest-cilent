@@ -1,0 +1,9 @@
+.baseInput {
+    @apply w-full bg-inherit;
+    border: none;
+    outline: none;
+}
+
+.baseInput:disabled {
+    @apply bg-cultured;
+}

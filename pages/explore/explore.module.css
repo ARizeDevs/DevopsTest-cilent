@@ -1,0 +1,11 @@
+.banner {
+    background-image: url('../../assets/images/banner.png');
+}
+
+.nftListWrapper {
+    @apply flex flex-col gap-4 mt-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:gap-8 lg:mt-6;
+}
+
+.link {
+    @apply contents
+}

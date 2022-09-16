@@ -1,0 +1,10 @@
+
+.wrapper {
+    @apply absolute z-50 top-20 right-4 rounded-2xl bg-space-cadet border border-dark-blue-grey px-4 py-5;
+    width: 312px;
+    box-shadow: 0px 20px 30px rgba(9, 9, 13, 0.7);
+}
+
+.typeIcon {
+    min-width: 24px;
+}
