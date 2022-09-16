@@ -10,7 +10,7 @@ pipeline {
     stages{
        stage("Build new docker image"){
             steps{
-                sh "docker build --tag=${IMAGE_NAME} . --file=Dockerfile"
+                sh "docker build --tag=${sa} . --file=Dockerfile"
             }
         }
           stage("Push to Google Container Registry"){
